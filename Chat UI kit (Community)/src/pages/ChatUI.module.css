@@ -1,0 +1,664 @@
+.chatUiChild {
+  left: 0;
+  width: 200px;
+  overflow: hidden;
+}
+.chatUiChild,
+.chatUiInner,
+.chatUiItem {
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+.chatUiItem {
+  left: 201px;
+  background-color: var(--color-gainsboro);
+  width: 400px;
+}
+.chatUiInner {
+  left: 601px;
+  width: 397px;
+}
+.chatUiChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 998px;
+  width: 922px;
+}
+.rectangleDiv {
+  background-color: var(--color-gainsboro);
+  height: 1024px;
+}
+.chatUiChild1 {
+  background-color: #7ced7a;
+  height: 90px;
+}
+.chatUiChild2,
+.chatUiChild3,
+.rectangleIcon {
+  position: absolute;
+  left: 601px;
+  width: 397px;
+  height: 100px;
+}
+.chatUiChild2 {
+  top: 90px;
+  background-color: var(--color-white);
+}
+.chatUiChild3,
+.rectangleIcon {
+  top: 188px;
+}
+.chatUiChild3 {
+  top: 288px;
+  background-color: var(--color-white);
+  height: 102px;
+}
+.chatUiChild4,
+.chatUiChild5,
+.chatUiChild6 {
+  position: absolute;
+  top: 390px;
+  left: 601px;
+  background-color: var(--color-black);
+  width: 397px;
+  height: 100px;
+}
+.chatUiChild5,
+.chatUiChild6 {
+  top: 490px;
+  background-color: var(--color-white);
+}
+.chatUiChild6 {
+  top: 592px;
+  background-color: var(--color-black);
+}
+.chatUiChild7,
+.chatUiChild8,
+.chatUiChild9,
+.ellipseDiv {
+  position: absolute;
+  top: 694px;
+  left: 601px;
+  background-color: var(--color-white);
+  width: 397px;
+  height: 100px;
+}
+.chatUiChild8,
+.chatUiChild9,
+.ellipseDiv {
+  top: 794px;
+  background-color: var(--color-black);
+}
+.chatUiChild9,
+.ellipseDiv {
+  top: 894px;
+  background-color: var(--color-white);
+}
+.ellipseDiv {
+  top: 15px;
+  left: 1040px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 60px;
+  height: 60px;
+}
+.chatUiChild10,
+.chatUiChild11,
+.chatUiChild12,
+.chatUiChild13,
+.chatUiChild14 {
+  position: absolute;
+  top: 123px;
+  left: 258px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 40px;
+  height: 40px;
+}
+.chatUiChild11,
+.chatUiChild12,
+.chatUiChild13,
+.chatUiChild14 {
+  top: 217px;
+}
+.chatUiChild12,
+.chatUiChild13,
+.chatUiChild14 {
+  top: 311px;
+}
+.chatUiChild13,
+.chatUiChild14 {
+  top: 405px;
+}
+.chatUiChild14 {
+  top: 499px;
+}
+.chatUiChild15,
+.chatUiChild16,
+.chatUiChild17,
+.chatUiChild18,
+.chatUiChild19,
+.chatUiChild20,
+.chatUiChild21 {
+  position: absolute;
+  top: 117px;
+  left: 1040px;
+  border-radius: 50%;
+  background-color: var(--color-crimson);
+  width: 60px;
+  height: 60px;
+}
+.chatUiChild16,
+.chatUiChild17,
+.chatUiChild18,
+.chatUiChild19,
+.chatUiChild20,
+.chatUiChild21 {
+  top: 110px;
+  left: 634px;
+}
+.chatUiChild17,
+.chatUiChild18,
+.chatUiChild19,
+.chatUiChild20,
+.chatUiChild21 {
+  top: 209px;
+}
+.chatUiChild18,
+.chatUiChild19,
+.chatUiChild20,
+.chatUiChild21 {
+  top: 306px;
+}
+.chatUiChild19,
+.chatUiChild20,
+.chatUiChild21 {
+  top: 406px;
+}
+.chatUiChild20,
+.chatUiChild21 {
+  top: 504px;
+}
+.chatUiChild21 {
+  top: 634px;
+  left: 258px;
+}
+.chatUiChild22,
+.chatUiChild23,
+.chatUiChild24,
+.chatUiChild25,
+.chatUiChild26,
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  position: absolute;
+  top: 712px;
+  left: 258px;
+  border-radius: 50%;
+  background-color: var(--color-crimson);
+  width: 60px;
+  height: 60px;
+}
+.chatUiChild23,
+.chatUiChild24,
+.chatUiChild25,
+.chatUiChild26,
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  top: 790px;
+}
+.chatUiChild24,
+.chatUiChild25,
+.chatUiChild26,
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  top: 612px;
+  left: 634px;
+}
+.chatUiChild25,
+.chatUiChild26,
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  top: 712px;
+}
+.chatUiChild26,
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  top: 812px;
+}
+.chatUiChild27,
+.chatUiChild28,
+.chatUiChild29 {
+  top: 916px;
+}
+.chatUiChild28,
+.chatUiChild29 {
+  top: 463px;
+  left: 1040px;
+}
+.chatUiChild29 {
+  top: 823px;
+}
+.person {
+  margin: 0;
+}
+.personemailcom {
+  margin: 0;
+  font-size: var(--font-size-xs);
+}
+.personPersonemailcom {
+  position: absolute;
+  top: 18px;
+  left: 1116px;
+  display: inline-block;
+  width: 343px;
+  height: 51px;
+}
+.person1Person1emailcomContainer1 {
+  width: 100%;
+}
+.person1Person1emailcomContainer {
+  position: absolute;
+  top: 110px;
+  left: 707px;
+  display: flex;
+  align-items: center;
+  width: 291px;
+  height: 60px;
+}
+.all {
+  top: 18px;
+  left: 669px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  width: 291px;
+  height: 60px;
+}
+.all,
+.inbox,
+.person2Person2emailcomContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.inbox {
+  top: 28px;
+  left: 258px;
+  font-size: var(--font-size-29xl);
+  width: 151px;
+  height: 40px;
+}
+.person2Person2emailcomContainer {
+  top: 209px;
+  left: 709px;
+  color: var(--color-white);
+  width: 291px;
+  height: 60px;
+}
+.person3Person3emailcomContainer,
+.person4Person4emailcomContainer,
+.person6Person6emailcomContainer {
+  position: absolute;
+  top: 306px;
+  left: 707px;
+  display: flex;
+  align-items: center;
+  width: 291px;
+  height: 60px;
+}
+.person4Person4emailcomContainer,
+.person6Person6emailcomContainer {
+  top: 406px;
+  color: var(--color-white);
+}
+.person6Person6emailcomContainer {
+  top: 612px;
+}
+.person7Person7emailcomContainer,
+.person8Person8emailcomContainer {
+  position: absolute;
+  top: 712px;
+  left: 707px;
+  display: flex;
+  align-items: center;
+  width: 291px;
+  height: 60px;
+}
+.person8Person8emailcomContainer {
+  top: 809px;
+  color: var(--color-white);
+}
+.person5Person5emailcomContainer,
+.person9Person9emailcomContainer {
+  position: absolute;
+  top: 911px;
+  left: 707px;
+  display: flex;
+  align-items: center;
+  width: 291px;
+  height: 60px;
+}
+.person5Person5emailcomContainer {
+  top: 504px;
+}
+.magnifyingGlassSolid1Icon {
+  position: absolute;
+  top: 25px;
+  left: 1797px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.chatUiChild30 {
+  position: absolute;
+  top: 24px;
+  left: 1881px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 12px;
+  height: 12px;
+}
+.chatUiChild31 {
+  position: absolute;
+  top: 912px;
+  left: 1040px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 847px;
+  height: 80px;
+}
+.chatUiChild32,
+.chatUiChild33 {
+  position: absolute;
+  top: 39px;
+  left: 1881px;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 12px;
+  height: 12px;
+}
+.chatUiChild33 {
+  top: 54px;
+}
+.chatUiChild34,
+.chatUiChild35 {
+  position: absolute;
+  top: 143px;
+  left: 1109px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-firebrick);
+  width: 564px;
+  height: 95px;
+}
+.chatUiChild35 {
+  top: 489px;
+  height: 45px;
+}
+.faceSmileRegular1Icon {
+  position: absolute;
+  top: 922px;
+  left: 1070px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.chatUiChild36,
+.chatUiChild37,
+.chatUiChild38,
+.chatUiChild39 {
+  position: absolute;
+  top: 849px;
+  left: 1109px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-firebrick);
+  width: 564px;
+  height: 45px;
+}
+.chatUiChild37,
+.chatUiChild38,
+.chatUiChild39 {
+  top: 279px;
+  left: 1323px;
+  background-color: var(--color-peru);
+  height: 95px;
+}
+.chatUiChild38,
+.chatUiChild39 {
+  top: 662px;
+  height: 145px;
+}
+.chatUiChild39 {
+  top: 390px;
+  height: 45px;
+}
+.friday200Pm,
+.friday203Pm,
+.saturday720Pm,
+.you,
+.you1 {
+  position: absolute;
+  top: 258px;
+  left: 1323px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+}
+.friday200Pm,
+.friday203Pm,
+.saturday720Pm,
+.you1 {
+  top: 641px;
+}
+.friday200Pm,
+.friday203Pm,
+.saturday720Pm {
+  top: 117px;
+  left: 1504px;
+  text-align: right;
+  width: 169px;
+}
+.friday203Pm,
+.saturday720Pm {
+  top: 463px;
+}
+.saturday720Pm {
+  top: 823px;
+}
+.friday202Pm {
+  top: 258px;
+  left: 1718px;
+  text-align: right;
+  width: 169px;
+}
+.friday202Pm,
+.person10,
+.person11,
+.person12,
+.saturday702Am {
+  position: absolute;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  height: 18px;
+}
+.saturday702Am {
+  top: 641px;
+  left: 1718px;
+  text-align: right;
+  width: 169px;
+}
+.person10,
+.person11,
+.person12 {
+  top: 117px;
+  left: 1109px;
+  width: 86px;
+}
+.person11,
+.person12 {
+  top: 463px;
+}
+.person12 {
+  top: 823px;
+}
+.chatUiChild40 {
+  position: absolute;
+  top: 609px;
+  left: 998px;
+  background-color: #5a5959;
+  width: 922px;
+  height: 5px;
+}
+.today {
+  position: absolute;
+  top: 583px;
+  left: 1424px;
+  text-align: right;
+  display: inline-block;
+  width: 70px;
+  height: 29px;
+}
+.arrowRightSolid1Icon {
+  position: absolute;
+  top: 927px;
+  left: 1847px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.sendYourMessage {
+  position: absolute;
+  top: 922px;
+  left: 1115px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 210px;
+  height: 28px;
+}
+.bookmarkRegular1Icon,
+.folderRegular1Icon {
+  position: absolute;
+  top: 955px;
+  left: 1115px;
+  width: 18px;
+  height: 25px;
+  overflow: hidden;
+}
+.folderRegular1Icon {
+  left: 1152px;
+  width: 25px;
+}
+.linkSolid1Icon,
+.magnifyingGlassSolid2Icon {
+  position: absolute;
+  top: 950px;
+  left: 1196px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.magnifyingGlassSolid2Icon {
+  top: 28px;
+  left: 501px;
+  width: 40px;
+  height: 40px;
+}
+.conversations,
+.mentions,
+.promotions,
+.support,
+.unassigned,
+.you2,
+.yourTeam {
+  position: absolute;
+  top: 81px;
+  left: 258px;
+  font-size: var(--font-size-mini);
+  display: flex;
+  align-items: center;
+  width: 176px;
+  height: 18px;
+}
+.mentions,
+.promotions,
+.support,
+.unassigned,
+.you2,
+.yourTeam {
+  top: 596px;
+}
+.mentions,
+.promotions,
+.support,
+.unassigned,
+.you2 {
+  top: 124px;
+  left: 321px;
+  font-size: var(--font-size-xl);
+  width: 155px;
+  height: 39px;
+}
+.mentions,
+.promotions,
+.support,
+.unassigned {
+  top: 217px;
+}
+.promotions,
+.support,
+.unassigned {
+  top: 310px;
+}
+.promotions,
+.support {
+  top: 403px;
+}
+.support {
+  top: 496px;
+}
+.inviteYourTeam,
+.person13,
+.person21,
+.person31 {
+  position: absolute;
+  top: 634px;
+  left: 357px;
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 58px;
+}
+.inviteYourTeam,
+.person21,
+.person31 {
+  top: 712px;
+}
+.inviteYourTeam,
+.person31 {
+  top: 791px;
+  left: 356px;
+}
+.inviteYourTeam {
+  top: 886px;
+  left: 258px;
+  font-size: var(--font-size-xl);
+  width: 207px;
+  height: 37px;
+}
+.chatUi {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
